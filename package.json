@@ -1,0 +1,22 @@
+{
+  "name": "combinando-lo-aprendido-trabajo-practico-final",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/readline-sync": "^1.4.4",
+    "@types/uuid": "^9.0.7",   
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
